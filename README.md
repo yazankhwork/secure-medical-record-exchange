@@ -65,10 +65,10 @@ Sample run output from the notebook, showing the patient-side encryption flow
 and the doctor-side verification/decryption flow:
 
 **Patient flow — key generation, secret encapsulation, encryption, signing**
-![Patient encryption flow](screenshots/patient-flow.png)
+![Patient encryption flow](docs/screenshots/patient-flow.png)
 
 **Doctor flow — signature verification, decryption, tampering tests**
-![Doctor verification flow](screenshots/doctor-flow.png)
+![Doctor verification flow](docs/screenshots/doctor-flow.png)
 
 ---
 
