@@ -15,13 +15,6 @@ implemented entirely in pure Python (no external crypto libraries):
 | **IDEA (CFB mode)** | Symmetric encryption of the medical record using a key derived from the shared secret | Block cipher, stream mode |
 | **Falcon-style NTRU signature** | Signs the transmitted package so the doctor can verify authenticity and integrity | Lattice-based signature |
 
-> ⚠️ **Educational project only.** These are simplified, from-scratch
-> reimplementations built for learning and demonstration. They are **not**
-> audited, constant-time, or suitable for production cryptographic or
-> medical use. All patient data in this repo is synthetic.
-
----
-
 ## How it works
 
 1. **Doctor** generates an ML-KEM (Kyber) key pair. The public key is shared openly; the private key stays with the doctor.
