@@ -122,6 +122,3 @@ are simplified for readability and are **not** validated, side-channel
 resistant, or interoperable with standardized libraries. Do not use this
 code to protect real medical or personal data.
 
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
